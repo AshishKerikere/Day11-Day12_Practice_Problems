@@ -8,5 +8,7 @@ public class Stock {
         this.name_ofStock = name_ofStock;
         this.number_ofShare = number_ofShare;
         this.price_ofShare = price_ofShare;
+        total_Value_ofStock = number_ofShare * price_ofShare;
     }
+
 }
